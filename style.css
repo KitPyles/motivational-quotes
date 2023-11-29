@@ -1,31 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body, html {
+	height:100vh;
+}
+
 p {
 	margin: 0;
 }
 
-#bkground {
-	
-	
+#bgImg {
+	background-image: url("images/ireland-by-jonas-fehre.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 #quoteBox {
-	height: 200px;
-	width: 700px;
-	vertical-align: middle;
-	display: inline-block;
-	margin-left: 25px;
 	background-color: rgba(151, 154, 170, .5);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#text {
+	width: 80%;
 }
 
 #quote {
-	padding-top: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
-	font-size: 2.25em;
+	font-family: Poppins, sans-serif;
+	font-size: 2em;
 }
 
 #citation {
-	font-size: .8em;
+	font-family: Poppins, sans-serif;
+	font-size: 1em;
 	font-style: italic;
+	font-weight: bold;
 	padding-left: 75px;
-	padding-right: 50px;
 }

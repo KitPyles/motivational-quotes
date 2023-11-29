@@ -1,33 +1,30 @@
-const quote = document.getElementById("quote");
-const citation = document.getElementById("citation");
-let bgImages = [
-	"giants-causeway-by-kevin-mcmahon",
-	"ireland-by-dorothe",
-	"ireland-by-iain",
-	"ireland-by-jonas-fehre",
-	"ireland-by-kelly",
-	"ireland-by-steven-hylands",
-	"ireland-by-tom-balabaud",
-	"ireland2-by-steven-hylands",
-	"ireland3-by-steven-hylands",
-	"ireland4-by-steven-hylands",
-	"orkney-by-david-mccreight",
-	"orkney-by-laura-flannigan",
-	"scotland-by-alan-caldwell",
-	"scotland-by-frank-winkler",
-	"scotland-by-john-martin-bramham",
-	"scotland-by-miquel-rosselló-calafell",
-	"scotland-by-miro-alt",
-	"scotland-by-pexels",
-	"scotland-by-ron-sharp",
-	"scotland-by-trina"
-]
-let randomImg = 'images/' + bgImages[Math.floor(Math.random() * bgImages.length)] + '.jpg';
-
 window.addEventListener("load", function() {
+	const quote = document.getElementById("quote");
+	const citation = document.getElementById("citation");
 	const image = document.querySelector("#bgImg");
-	const quote = document.querySelector("#quote");
-	const citation = document.querySelector("#citation");
+	let bgImages = [
+		"giants-causeway-by-kevin-mcmahon",
+		"ireland-by-dorothe",
+		"ireland-by-iain",
+		"ireland-by-jonas-fehre",
+		"ireland-by-kelly",
+		"ireland-by-steven-hylands",
+		"ireland-by-tom-balabaud",
+		"ireland2-by-steven-hylands",
+		"ireland3-by-steven-hylands",
+		"ireland4-by-steven-hylands",
+		"orkney-by-david-mccreight",
+		"orkney-by-laura-flannigan",
+		"scotland-by-alan-caldwell",
+		"scotland-by-frank-winkler",
+		"scotland-by-john-martin-bramham",
+		"scotland-by-miquel-rosselló-calafell",
+		"scotland-by-miro-alt",
+		"scotland-by-pexels",
+		"scotland-by-ron-sharp",
+		"scotland-by-trina"
+	]
+	let randomImg = 'images/' + bgImages[Math.floor(Math.random() * bgImages.length)] + '.jpg';
 	let quotes = [
 		["Do not bring people in your life who weigh you down. And trust your instincts... good relationships feel good. They feel right. They don't hurt.","Billie Eilish"],
 		["The more I like me, the less I want to pretend to be other people.","Jamie Lee Curtis"],
@@ -58,12 +55,8 @@ window.addEventListener("load", function() {
 	let randomIndex = Math.floor(Math.random() * quotes.length);
 	
 	image.style.backgroundImage = `url(${randomImg})`;
-	image.style.backgroundSize = "cover";
-	image.style.height = "500px";
-	image.style.width = "750px";
-	image.style.backgroundPosition = "center";
-	image.style.display = "table-cell";
-	image.style.verticalAlign = "middle";
+	image.style.height = "100%";
+	image.style.width = "100%";
 	quote.innerHTML = quotes[randomIndex][0];
 	citation.innerHTML = quotes[randomIndex][1];
 });
