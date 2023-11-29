@@ -1,0 +1,31 @@
+p {
+	margin: 0;
+}
+
+#bkground {
+	
+	
+}
+
+#quoteBox {
+	height: 200px;
+	width: 700px;
+	vertical-align: middle;
+	display: inline-block;
+	margin-left: 25px;
+	background-color: rgba(151, 154, 170, .5);
+}
+
+#quote {
+	padding-top: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	font-size: 2.25em;
+}
+
+#citation {
+	font-size: .8em;
+	font-style: italic;
+	padding-left: 75px;
+	padding-right: 50px;
+}
