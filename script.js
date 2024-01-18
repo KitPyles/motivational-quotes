@@ -37,7 +37,7 @@ window.addEventListener("load", function() {
 		["The question isn't who's going to let me, it's who is going to stop me.","Ayn Rand"],
 		["Don't be pushed around by the fears in your mind. Be led by the dreams in your heart.","Angela Davis"],
 		["Success is liking yourself, liking what you do, & liking how youdo it.","Jane Fonda"],
-		["Be a first-rate version of yourself, not a second-rate version of somebody else.","Just Garland"],
+		["Be a first-rate version of yourself, not a second-rate version of somebody else.","Judy Garland"],
 		["Believe you can & you're halfway there.","Eleanor Roosevelt"],
 		["Success is not final, failure is not fatal; It is the courage to continue that counts.","Amelia Earhart"],
 		["You have to have confidence in your ability, & then be tough enough to follow through","Rosalynn Carter"],
