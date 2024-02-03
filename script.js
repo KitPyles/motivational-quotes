@@ -47,7 +47,7 @@ window.addEventListener("load", function() {
 		["The past can hurt. But the way I see it, you can either run from it or learn from it.","The Lion King"],
 		["The flower that blooms in adversity is the most rare & beautiful of all.","Mulan"],
 		["You control your destiny -- you don't need magic to do it. There are no magical shortcuts to solving your problems.","Brave"],
-		["The only way acheive the impossible is to believe it is possible.","Time Burton's Alice in Wonderland"],
+		["The only way to acheive the impossible is to believe it is possible.","Time Burton's Alice in Wonderland"],
 		["The strength of the pack is the wolf, & the strength of the wolf is the pack.","The Jungle Book"],
 		["The only limit to your impact is your imagination and commitment.","Zootopia"],
 		["Life's not a spectator sport. If watching is all you're gonna do, then you're gonna watch your life go by without you.","Disney's The Hunchback of Notre Dame"]
