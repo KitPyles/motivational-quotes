@@ -57,7 +57,7 @@ window.addEventListener("load", function() {
 	image.style.backgroundImage = `url(${randomImg})`;
 	image.style.height = "auto";
 	image.style.max-width = "100%";
-	image.style.overflow = "hidden";
+	/* image.style.overflow = "hidden"; */
 	quote.innerHTML = quotes[randomIndex][0];
 	citation.innerHTML = quotes[randomIndex][1];
 });
