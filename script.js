@@ -56,7 +56,7 @@ window.addEventListener("load", function() {
 	
 	image.style.backgroundImage = `url(${randomImg})`;
 	image.style.max-height = "100%";
-	image.style.max-width = "100%";
+	/* image.style.max-width = "100%"; */
 	quote.innerHTML = quotes[randomIndex][0];
 	citation.innerHTML = quotes[randomIndex][1];
 });
