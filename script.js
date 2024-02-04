@@ -55,9 +55,8 @@ window.addEventListener("load", function() {
 	let randomIndex = Math.floor(Math.random() * quotes.length);
 	
 	image.style.backgroundImage = `url(${randomImg})`;
-	image.style.height = "auto";
 	image.style.width = "100%";
-	/* image.style.overflow = "hidden"; */
+	image.style.height = "auto";
 	quote.innerHTML = quotes[randomIndex][0];
 	citation.innerHTML = quotes[randomIndex][1];
 });
